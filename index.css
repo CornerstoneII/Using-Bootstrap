@@ -49,92 +49,89 @@ span:hover {
 
 .subscribe {
     height: 300px;
-  }
   
-  .heading-gray-color {
+}
+  
+.heading-gray-color {
     color: rgba(3, 3, 3, 0.4);
     line-height: 16px;
-
-  }
+}
   
-  .text-gray {
+.text-gray {
     color: rgba(3, 3, 3, 0.5);
-  }
+}
   
-  .black-color {
+.black-color {
     color: #000;
-  }
+}
   
-  .red-text {
+.red-text {
     color: #f72210;
-  }
+}
   
-  .white-text {
+.white-text {
     color: #fff;
-  }
+}
   
-  .signup-bg {
+.signup-bg {
     background-color: rgb(244, 245, 246);
-  }
+}
   
-  .red-bg {
+.red-bg {
     background-color: #f72210;
-  }
+}
   
-  .news-ltr-clr {
+.news-ltr-clr {
     color: #333;
     font-weight: 300;
     line-height: 21px;
-  }
-  
-  
-  .roboto-cond {
+}
+   
+.roboto-cond {
     font-family: 'Roboto Condensed', sans-serif;
-  }
+}
   
-  .large-font {
+.large-font {
     font-size: 20px;
     line-height: 20px;
-  }
+}
   
-  .small-font {
+.small-font {
     font-size: 15px;
-  }
+}
   
-  .sm-heading {
+.sm-heading {
     font-size: 17px;
     line-height: 16px;
-  }
+}
   
-  .debate-subheading {
+.debate-subheading {
     font-size: 20px;
     line-height: 20px;
-  }
+}
 
-<<<<<<< HEAD
-=======
-  .row > div {
+.row > div {
     padding: 10px;
-  }
+}
   
-  section h2 {
+section h2 {
     font-size: 22px;
     font-weight: bold;
-  }
+}
   
-  .debate-item-top,
-  .opinion-items li,
-  .flex-sm,
-  .sub-item,
-  .newsletter-block {
+.debate-item-top,
+.opinion-items li,
+.flex-sm,
+.sub-item,
+.newsletter-block {
     display: flex;
-  }
+}
   
-  .float-right {
+.float-right {
     float: right;
-  }
+}
   
-  .round-vs {
+.round-vs {
     text-align: center;
     background-color: black;
     color: #d6d6d6;
@@ -145,113 +142,134 @@ span:hover {
     transform: translateY(-90%);
     font-size: 15px;
     font-weight: bold;
-  }
+}
   
-  hr.hr-style {
+hr.hr-style {
     border-top: 1px solid #8c8b8b;
     border-bottom: 1px solid #fff;
-  }
+}
   
-  hr.hr-style:after {
+hr.hr-style:after {
     content: '';
     display: block;
     margin-top: 2px;
     border-top: 1px solid #8c8b8b;
-  }
+}
   
-  ul {
+ul {
     list-style: none;
-  }
+}
   
-  .opinion-content ul {
+.opinion-content ul {
     padding-left: 0px;
-  }
+}
   
-  .col-sm-4 h5 {
+.col-sm-4 h5 {
     font-size: 16px;
     font-weight: bold;
-  }
+}
   
-  .subscribe-img {
+.subscribe-img {
     position: relative;
     display: inline-block;
     height: 160px;
     padding-bottom: 18px;
     padding-right: 90px;
-  }
+}
   
-  .current {
+.current {
     left: 80px;
     top: 20px;
     position: absolute;
-  }
+}
   
-  .s-img {
+.s-img {
     width: 170px;
     height: 228px;
-  }
+}
   
-  .img-c,
-  .img-p {
+.img-c,
+.img-p {
     vertical-align: middle;
     height: auto;
     width: 100%;
-  }
+}
   
-  .col-md-4 h2,
-  .col-md-3 h3 {
+.col-md-4 h2,
+.col-md-3 h3 {
     font-size: 22px;
-  }
+}
   
-    .form-submit,
-    .title,
-    .subscribe-btn {
+.form-submit,
+.title,
+.subscribe-btn {
       text-transform: uppercase;
-    }
+}
 
-  @media (max-width: 991px) and(min-width: 768px) {
-    .debates-cards {
-      max-width: 330px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .subscribe-img1 {
-      top: 40px;
-      left: 60px;
-    }
-  
-    .subscribe-img2 {
-      top: -140px;
-      left: 120px;
-    }
-  
-    .enlarge {
-      font-size: 25px;
-    }
-  }
-
->>>>>>> c897ae1df07505385b4b7678351b2729bb5b3f9b
-  .footer-image {
+.footer-image {
     width: 20px;
-  }
+}
   
-  .bottom-footer li {
+.bottom-footer li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-  }
+}
   
-  .footer-logo {
+.footer-logo {
     object-fit: unset;
-  }
+}
   
-  .footer-icon {
+.footer-icon {
     width: 250px;
-  }
+}
   
-  .footer-p {
+.footer-p {
     font-size: 12px;
     padding-left: 110px;
+}
+
+@media only screen and (min-width: 768px)  {
+  .subscribe-items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 767px)  {
+  .subscribe-items {
+    text-align: center;
   }
   
-} 
+  .subscribe-content {
+    position: relative;
+  }
+  
+  .subscribe-img {
+  display: inline-block;
+  margin-bottom: 15px;
+  height: 160px;
+}
+  
+  .subscribe-info {
+    border: 1px solid black;
+    transform: translateY(-22%);
+  }
+  
+  .newsletter-img {
+    display: none;
+  }
+  
+  .newsletter-block {
+    text-align: center;
+  }
+  
+  .newsletter-info {
+    border: 1px solid #ebebeb;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .form-submit {
+    padding-bottom: 20px;
+  }
+}
