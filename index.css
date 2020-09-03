@@ -111,6 +111,127 @@ span:hover {
     line-height: 20px;
   }
 
+<<<<<<< HEAD
+=======
+  .row > div {
+    padding: 10px;
+  }
+  
+  section h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .debate-item-top,
+  .opinion-items li,
+  .flex-sm,
+  .sub-item,
+  .newsletter-block {
+    display: flex;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  .round-vs {
+    text-align: center;
+    background-color: black;
+    color: #d6d6d6;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    margin: 0 auto;
+    transform: translateY(-90%);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  hr.hr-style {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+  }
+  
+  hr.hr-style:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    border-top: 1px solid #8c8b8b;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .opinion-content ul {
+    padding-left: 0px;
+  }
+  
+  .col-sm-4 h5 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .subscribe-img {
+    position: relative;
+    display: inline-block;
+    height: 160px;
+    padding-bottom: 18px;
+    padding-right: 90px;
+  }
+  
+  .current {
+    left: 80px;
+    top: 20px;
+    position: absolute;
+  }
+  
+  .s-img {
+    width: 170px;
+    height: 228px;
+  }
+  
+  .img-c,
+  .img-p {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+  }
+  
+  .col-md-4 h2,
+  .col-md-3 h3 {
+    font-size: 22px;
+  }
+  
+    .form-submit,
+    .title,
+    .subscribe-btn {
+      text-transform: uppercase;
+    }
+
+  @media (max-width: 991px) and(min-width: 768px) {
+    .debates-cards {
+      max-width: 330px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .subscribe-img1 {
+      top: 40px;
+      left: 60px;
+    }
+  
+    .subscribe-img2 {
+      top: -140px;
+      left: 120px;
+    }
+  
+    .enlarge {
+      font-size: 25px;
+    }
+  }
+
+>>>>>>> c897ae1df07505385b4b7678351b2729bb5b3f9b
   .footer-image {
     width: 20px;
   }
