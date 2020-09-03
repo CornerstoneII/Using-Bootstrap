@@ -47,15 +47,14 @@ span:hover {
   color: #f74334;
 }
 
-
 .subscribe {
     height: 300px;
   }
   
-  
   .heading-gray-color {
     color: rgba(3, 3, 3, 0.4);
     line-height: 16px;
+
   }
   
   .text-gray {
@@ -112,28 +111,6 @@ span:hover {
     line-height: 20px;
   }
 
-  @media (max-width: 991px) and(min-width: 768px) {
-    .debates-cards {
-      max-width: 330px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    .subscribe-img1 {
-      top: 40px;
-      left: 60px;
-    }
-  
-    .subscribe-img2 {
-      top: -140px;
-      left: 120px;
-    }
-  
-    .enlarge {
-      font-size: 25px;
-    }
-  }
-
   .footer-image {
     width: 20px;
   }
@@ -156,4 +133,4 @@ span:hover {
     padding-left: 110px;
   }
   
-  
+} 
