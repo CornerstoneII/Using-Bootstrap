@@ -1,3 +1,159 @@
-* body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: rgb(244, 245, 246);
 }
+
+.bg-red {
+  background-color: red;
+}
+
+.logo {
+  width: 120px;
+}
+
+.main-logo {
+  width: 410px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.logo img {
+  object-fit: unset;
+}
+
+.nav-right {
+  padding-right: 10px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+span:hover {
+  color: #f74334;
+}
+
+
+.subscribe {
+    height: 300px;
+  }
+  
+  
+  .heading-gray-color {
+    color: rgba(3, 3, 3, 0.4);
+    line-height: 16px;
+  }
+  
+  .text-gray {
+    color: rgba(3, 3, 3, 0.5);
+  }
+  
+  .black-color {
+    color: #000;
+  }
+  
+  .red-text {
+    color: #f72210;
+  }
+  
+  .white-text {
+    color: #fff;
+  }
+  
+  .signup-bg {
+    background-color: rgb(244, 245, 246);
+  }
+  
+  .red-bg {
+    background-color: #f72210;
+  }
+  
+  .news-ltr-clr {
+    color: #333;
+    font-weight: 300;
+    line-height: 21px;
+  }
+  
+  
+  .roboto-cond {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .large-font {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  .small-font {
+    font-size: 15px;
+  }
+  
+  .sm-heading {
+    font-size: 17px;
+    line-height: 16px;
+  }
+  
+  .debate-subheading {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (max-width: 991px) and(min-width: 768px) {
+    .debate-cards {
+      max-width: 330px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .subscribe-img1 {
+      top: 40px;
+      left: 60px;
+    }
+  
+    .subscribe-img2 {
+      top: -140px;
+      left: 120px;
+    }
+  
+    .enlarge {
+      font-size: 25px;
+    }
+  }
+
+  .footer-image {
+    width: 20px;
+  }
+  
+  .bottom-footer li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-logo {
+    object-fit: unset;
+  }
+  
+  .footer-icon {
+    width: 250px;
+  }
+  
+  .footer-p {
+    font-size: 12px;
+    padding-left: 110px;
+  }
+  
+  
