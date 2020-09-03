@@ -113,7 +113,7 @@ span:hover {
   }
 
   @media (max-width: 991px) and(min-width: 768px) {
-    .debate-cards {
+    .debates-cards {
       max-width: 330px;
       margin-left: auto;
       margin-right: auto;
