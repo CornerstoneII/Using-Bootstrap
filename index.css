@@ -110,7 +110,11 @@ span:hover {
     line-height: 20px;
 }
 
+<<<<<<< HEAD
   .row > div {
+=======
+.row > div {
+>>>>>>> e8fa2ea4a4af983fa6214716a5179ce25edbaea4
     padding: 10px;
 }
   
@@ -207,6 +211,7 @@ ul {
 }
 
   .footer-image {
+.footer-image {
     width: 20px;
 }
   
