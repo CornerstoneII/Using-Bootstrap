@@ -227,9 +227,19 @@ ul {
   padding-left: 110px;
 }
 
+@media only screen and (max-width: 384px) {
+  .pb-pt-xs {
+    padding: 10px 0 10px 0;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .subscribe-items {
     display: flex;
+  }
+
+  .pb-pt-sm {
+    padding: 10px 0 10px 0;
   }
 }
 
