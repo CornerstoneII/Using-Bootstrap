@@ -19,7 +19,7 @@ body {
   width: 410px;
 }
 
-img {
+anchor-img {
   display: block;
   width: 100%;
   height: auto;
@@ -49,77 +49,76 @@ span:hover {
 
 .subscribe {
     height: 300px;
-  
+
 }
-  
+
 .heading-gray-color {
     color: rgba(3, 3, 3, 0.4);
     line-height: 16px;
 }
-  
+
 .text-gray {
     color: rgba(3, 3, 3, 0.5);
 }
-  
+
 .black-color {
     color: #000;
 }
-  
+
 .red-text {
     color: #f72210;
 }
-  
+
 .white-text {
     color: #fff;
 }
-  
+
 .signup-bg {
     background-color: rgb(244, 245, 246);
 }
-  
+
 .red-bg {
     background-color: #f72210;
 }
-  
+
 .news-ltr-clr {
     color: #333;
     font-weight: 300;
     line-height: 21px;
 }
-   
+
 .roboto-cond {
     font-family: 'Roboto Condensed', sans-serif;
 }
-  
+
 .large-font {
     font-size: 20px;
     line-height: 20px;
 }
-  
+
 .small-font {
     font-size: 15px;
 }
-  
+
 .sm-heading {
     font-size: 17px;
     line-height: 16px;
 }
-  
+
 .debate-subheading {
     font-size: 20px;
     line-height: 20px;
 }
 
-  .row > div {
-.row > div {
+.top > div {
     padding: 10px;
 }
-  
+
 section h2 {
     font-size: 22px;
     font-weight: bold;
 }
-  
+
 .debate-item-top,
 .opinion-items li,
 .flex-sm,
@@ -127,11 +126,11 @@ section h2 {
 .newsletter-block {
     display: flex;
 }
-  
+
 .float-right {
     float: right;
 }
-  
+
 .round-vs {
     text-align: center;
     background-color: black;
@@ -144,32 +143,32 @@ section h2 {
     font-size: 15px;
     font-weight: bold;
 }
-  
+
 hr.hr-style {
     border-top: 1px solid #8c8b8b;
     border-bottom: 1px solid #fff;
 }
-  
+
 hr.hr-style:after {
     content: '';
     display: block;
     margin-top: 2px;
     border-top: 1px solid #8c8b8b;
 }
-  
+
 ul {
     list-style: none;
 }
-  
+
 .opinion-content ul {
     padding-left: 0px;
 }
-  
+
 .col-sm-4 h5 {
     font-size: 16px;
     font-weight: bold;
 }
-  
+
 .subscribe-img {
     position: relative;
     display: inline-block;
@@ -177,30 +176,30 @@ ul {
     padding-bottom: 18px;
     padding-right: 90px;
 }
-  
+
 .current {
     left: 80px;
     top: 20px;
     position: absolute;
 }
-  
+
 .s-img {
     width: 170px;
     height: 228px;
 }
-  
+
 .img-c,
 .img-p {
     vertical-align: middle;
     height: auto;
     width: 100%;
 }
-  
+
 .col-md-4 h2,
 .col-md-3 h3 {
     font-size: 22px;
 }
-  
+
 .form-submit,
 .title,
 .subscribe-btn {
@@ -210,20 +209,20 @@ ul {
   .footer-image {
     width: 20px;
 }
-  
+
 .bottom-footer li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-  
+
 .footer-logo {
     object-fit: unset;
 }
-  
+
 .footer-icon {
     width: 250px;
 }
-  
+
 .footer-p {
     font-size: 12px;
     padding-left: 110px;
@@ -239,37 +238,37 @@ ul {
   .subscribe-items {
     text-align: center;
   }
-  
+
   .subscribe-content {
     position: relative;
   }
-  
+
   .subscribe-img {
   display: inline-block;
   margin-bottom: 15px;
   height: 160px;
 }
-  
+
   .subscribe-info {
     border: 1px solid black;
     transform: translateY(-22%);
   }
-  
+
   .newsletter-img {
     display: none;
   }
-  
+
   .newsletter-block {
     text-align: center;
   }
-  
+
   .newsletter-info {
     border: 1px solid #ebebeb;
     width: 100%;
     padding-right: 20px;
     padding-top: 20px;
   }
-  
+
   .form-submit {
     padding-bottom: 20px;
   }
