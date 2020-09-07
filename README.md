@@ -2,9 +2,7 @@
 
 # A NEWSWEEK page
 
-![NEWSWEEK page](./assets/images/tablet.png)
-
-![NEWSWEEK page](./assets/images/mobile.png)
+![NEWSWEEK page](./assets/images/newsweek.png)
 
 This project is based on The Odin Project and Microverse peer programming collaborative coding. It involves cloning a page that matches the look of a [NEWSWEEK page](https://www.newsweek.com)
 
