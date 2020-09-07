@@ -35,9 +35,8 @@ body {
 }
 
 .rounded-circle {
-   width: 100%;
+  width: 100%;
 }
-
 
 .row {
   display: -ms-flexbox;
@@ -90,7 +89,7 @@ span:hover {
   background-repeat: no-repeat;
   background-size: cover;
   width: 110%;
-  height: 120%; 
+  height: 120%;
 }
 
 .news-ltr-clr {
@@ -140,7 +139,7 @@ section h2 {
 }
 
 .float-right {
-  float:right;
+  float: right;
   width: 100%;
   height: 70%;
 }
