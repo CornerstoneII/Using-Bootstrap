@@ -4,11 +4,75 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 245, 246);
+  /* background-color: rgb(244, 245, 246); */
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 
 .bg-red {
   background-color: red;
+}
+
+.badge {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 18px;
+line-height: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 17px;
+  position: relative;
+  font-weight: bold;
+}
+
+h4 a {
+  color: black;
+}
+
+.more-link a,
+.top-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.more-link a:hover,
+.top-link a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  color: #555;
+}
+
+.summary {
+  width: 80%;
+}
+
+.byline {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.byline span {
+  font-weight: normal;
+  color: #555;
 }
 
 .logo {
@@ -17,6 +81,37 @@ body {
 
 .main-logo {
   width: 410px;
+}
+
+.red-title {
+  color: red;
+}
+
+.n-icon {
+
+display: block;
+width: 29px;
+height: 28px;
+background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+background-color: rgb(247, 34, 16);
+background-repeat: no-repeat;
+background-image: url("https://g.newsweek.com/www/images/logo-n1.svg");
+background-position: center;
+}
+
+.jc {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.debate-link a,
+.category-link a,
+.tc-link a,
+.top-category a,
+.red-title a,
+.text-decoration a {
+  text-decoration: none;
 }
 
 .anchor-img {
@@ -38,7 +133,7 @@ body {
   width: 100%;
 }
 
-.row {
+.nav-row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -132,16 +227,25 @@ section h2 {
 
 .debate-item-top,
 .opinion-items li,
+.tc-items,
 .flex-sm,
 .sub-item,
 .newsletter-block {
   display: flex;
 }
 
-.float-right {
-  float: right;
-  width: 100%;
-  height: 70%;
+.rounded-circle {
+  width: 100px;
+  object-fit: cover;
+}
+
+.tc-items {
+  margin-left: -10px;
+}
+
+.subscribe-items {
+  background-color: #f4f5f6;
+  padding: 30px;
 }
 
 .round-vs {
@@ -213,6 +317,31 @@ ul {
   font-size: 22px;
 }
 
+.title,
+.title a,
+.tc-link a {
+  color: rgba(3,3,3,.4);
+  font-weight: bold;
+}
+
+.title-black {
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+.image img {
+  width: 100%;
+}
+
+.debate-info a {
+  font-size: 17px;
+}
+
+.hidden-img {
+  width: 20%;
+}
+
 .form-submit,
 .title,
 .subscribe-btn {
@@ -255,6 +384,11 @@ ul {
   .pb-pt-sm {
     padding: 10px 0 10px 0;
   }
+
+  .hidden-img {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {

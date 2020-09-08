@@ -21,7 +21,8 @@
     <header>
       <div class="container-fluid bg-red">
         <nav>
-          <div class="row d-flex justify-content-center pb-pt-xs pb-pt-sm">
+          <div class="row d-flex nav-row justify-content-center pb-pt-xs pb-pt-sm">
+
             <div class="d-none d-lg-flex flex-column my-3 col-lg-3 justify-content-between">
               <div class="">
                 <a href="#" class="text-white text-decoration-none">
@@ -32,12 +33,17 @@
                 <h6 class="text-white">Wed, Sep 2, 2020</h6>
               </div>
             </div>
+
             <div class="col-6 col-md-4 col-lg-6 d-flex justify-content-lg-center py-lg-2">
-              <a href="#" class=" d-flex align-items-center anchor-img"> <img src="assets/images/logo.svg"
+
+              <a href="#" class=" d-flex align-items-center anchor-img hidden-img"> <img src="assets/images/logo.svg"
                   class="logo d-lg-none" alt=""></a>
+
               <a href="#" class="anchor-img"> <img src="assets/images/main-logo.png"
                   class="main-logo d-none  d-lg-block" alt=""></a>
+
             </div>
+
             <div class="col-6 col-md-8 col-lg-3 d-flex justify-content-end align-items-end mb-lg-3">
               <div class="d-flex align-items-center">
                 <a href="#" class="nav-right"> <i class="far fa-user text-secondary d-md-none d-lg-none"></i> </a>
@@ -54,6 +60,8 @@
                 </a>
               </div>
             </div>
+
+
           </div>
         </nav>
       </div>
@@ -66,7 +74,7 @@
                   <a href="#" class="text-decoration-none">
                     <h6 class="text-dark font-weight-bold px-1"> <span
                         class="border border-top-0 border-bottom-0 border-left-0 py-1 px-2">
-                        U.S.</span></h6>
+                        <a href="#" class="red-title">U.S.</a></span></h6>
                   </a>
                   <a href="#" class="text-decoration-none">
                     <h6 class="text-dark font-weight-bold px-1border"> <span
@@ -223,13 +231,16 @@
             </div>
             <section class="sm-12 md-12">
               <img class="img-fluid h-auto mw-100" src="assets/images/trump.webp" alt="Newsweek Placeholder Image">
-              <div class="category">
-                <a href="#category">News</a>
+              <div class="category-link">
+                <a href="#">News</a>
               </div>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+              <h2 class="top-link">
+                <a href="#">
+                  As Judge Halts Census Wind Down, These States Have Lowest Response Rates
+                </a>
+              </h2>
               <p class="summary mb-4">
-                Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit vitae
-                est. Nunc ultricies.
+                Southeastern states Alabama and Georgia have the lowest response rates so far for the 2020 census.
               </p>
             </section>
           </div>
@@ -238,201 +249,314 @@
           <div class="tcm-content">
 
             <!--  Title-Link  -->
-            <div class="title">
+            <div class="title pb-2">
               <a href="#title">My Turn</a>
             </div>
             <!--  Turn Section  -->
-            <div class="container-fluid">
-              <div class="row tc-items">
-                <div class="col tc-item order-0">
-                  <div class="image">
-                    <img class="img-fluid" src="assets/images/covid.webp" alt="Newsweek Placeholder Image">
-                  </div>
-
-                  <div class="info">
-                    <a href="#info">
-                      Integer tempus consequat sapien et bibendum. Maecenas lobortis mauris ac.
-                    </a>
-                  </div>
+            <div class="tc-items">
+              <div class="col tc-item order-0">
+                <div class="image">
+                  <img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1631805/narcissism-relationships-dating-narcissist.jpg?w=397&amp;h=397&amp;f=5ada9adca31f973ba00d6de54c9373c2"
+                    alt="Newsweek Placeholder Image">
                 </div>
-                <div class="col tc-item order-1">
-                  <div class="image">
-                    <img class="img-fluid" src="assets/images/covid.webp" alt="Newsweek Placeholder Image">
-                  </div>
 
-                  <div class="info">
-                    <a href="#info">
-                      Integer tempus consequat sapien et bibendum. Maecenas lobortis mauris ac.
-                    </a>
-                  </div>
+                <div class="info tc-link">
+                  <a href="#">
+                    'I Know Narcissists. Here Are Four Signs You're Dating One'
+                  </a>
                 </div>
-                <div class="col tc-item order-2">
-                  <div class="image">
-                    <img class="img-fluid" src="assets/images/covid.webp" alt="Newsweek Placeholder Image">
-                  </div>
+              </div>
+              <div class="col tc-item order-1">
+                <div class="image">
+                  <img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1628273/engagement-marriage-engagement-ring.jpg?w=397&amp;h=397&amp;f=a2a1ee2e3dd1e1b27596ccdc2aafcdd4"
+                    alt="Newsweek Placeholder Image">
+                </div>
 
-                  <div class="info">
-                    <a href="#info">
-                      Integer tempus consequat sapien et bibendum. Maecenas lobortis mauris ac.
-                    </a>
-                  </div>
+                <div class="info tc-link">
+                  <a href="#">
+                    'I'm a Secret Engagement Ring Buyer for Clueless Guys'
+                  </a>
+                </div>
+              </div>
+              <div class="col tc-item order-2">
+                <div class="image">
+                  <img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1606372/covid19-sarscov2-cdc.png?w=397&amp;h=397&amp;f=ed2b86a556f6adac5bb69367ed2cc938"
+                    alt="Newsweek Placeholder Image">
+                </div>
+
+                <div class="info tc-link">
+                  <a href="#">
+                    'I Am a Scientist Working With Severe Cases of COVID-19'
+                  </a>
                 </div>
               </div>
             </div>
 
+
             <!--  Title-Link  -->
-            <div class="title">
+            <div class="title tc-link pt-3 pb-3">
               <a href="#title">Culture & Travel</a>
             </div>
 
             <!--  Culture & Travel Section  -->
-            <div class="container-fluid">
-              <div class="row tc-items">
-                <div class="col tc-item order-0">
-                  <div class="image">
-                    <img class="img-fluid" src="assets/images/central-park-monument.webp"
-                      alt="Newsweek Placeholder Image">
-                    <div class="category">Travel</div>
-                  </div>
-
-                  <div class="info">
-                    <a href="#info">
-                      Integer tempus consequat sapien et bibendum. Maecenas lobortis mauris ac.
-                    </a>
+            <div class="tc-items">
+              <div class="col tc-item order-0">
+                <div class="image">
+                  <img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1629368/rhinos.jpg?w=397&amp;h=397&amp;f=3cb0b41ecc22788d1da11563e61894b7"
+                    alt="Newsweek Placeholder Image">
+                  <div class="category-link">
+                    <a href="#">Travel</a>
                   </div>
                 </div>
-                <div class="col tc-item order-1">
-                  <div class="image">
-                    <img class="img-fluid" src="assets/images/central-park-monument.webp"
-                      alt="Newsweek Placeholder Image">
-                    <div class="category">Travel</div>
-                  </div>
 
-                  <div class="info">
-                    <a href="#info">
-                      Integer tempus consequat sapien et bibendum. Maecenas lobortis mauris ac.
-                    </a>
+                <div class="info tc-link">
+                  <a href="#">
+                    The Last Two Northern White Rhinos—and The Armed Guard Who Protects Them
+                  </a>
+                </div>
+              </div>
+              <div class="col tc-item order-1">
+                <div class="image">
+                  <img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1629519/met.jpg?w=397&amp;h=397&amp;f=4264938aed771554d52d21b49e161b24"
+                    alt="Newsweek Placeholder Image">
+                  <div class="category-link">
+                    <a href="#">Travel</a>
                   </div>
                 </div>
-                <div class="col tc-item order-2">
-                  <div class="image">
-                    <img class="img-fluid" src="assets/images/central-park-monument.webp"
-                      alt="Newsweek Placeholder Image">
-                    <div class="category">Travel</div>
-                  </div>
 
-                  <div class="info">
-                    <a href="#info">
-                      Integer tempus consequat sapien et bibendum. Maecenas lobortis mauris ac.
-                    </a>
+                <div class="info tc-link">
+                  <a href="#">
+                    Planning a Trip to One of NYC's Recently Opened Museums? What to Know
+                  </a>
+                </div>
+              </div>
+              <div class="col tc-item order-2">
+                <div class="image">
+                  <img class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1628308/kellee-edwards-vultee-bt-13-aircraft.jpg?w=397&amp;h=397&amp;f=415ed1209407b816f9a935d18e22c5a9"
+                    alt="Newsweek Placeholder Image">
+                  <div class="category-link">
+                    <a href="#">Travel</a>
                   </div>
+                </div>
+
+                <div class="info tc-link">
+                  <a href="#">
+                    First Black Woman to Host Travel TV Show Flies in the Face of Convention
+                  </a>
                 </div>
               </div>
             </div>
+
             <!-- More Stories -->
-            <div class="top-more">
+            <div class="top-more pt-5">
               <!--  Title-Link  -->
-              <div class="title">
-                <a href="#title">More Stories</a>
+              <div class="title pb-3">
+                <a href="#title">
+                  More Stories
+                </a>
               </div>
 
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632215/donald-trump-stimulus-check-qualify.jpg?w=95&amp;h=95&amp;f=bb4eb41237c4cadb0c3563649effdce9"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
 
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Trump Wants to Use $300 Billion for Stimulus Checks, Here's Who's Excluded
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  President Donald Trump is on board with another round of stimulus checks as long as it excludes a
+                  stipulation in the Democrat-led relief bill.
+                </div>
 
               </article>
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632143/black-lives-matter-blm-getty.jpg?w=95&amp;h=95&amp;f=bda7f1a1d7d50b26fa1a416bf0443032"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
+                <h4 class="more-link">
+                  <a href="#">
+                    History Tells Us Epidemics Are Followed by Civil Unrest for Three Reasons
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  Researchers reviewed evidence on protests and unrest around the time of 57 epidemics between the Black
+                  Death in the 1300s and the Spanish Flu pandemic of 1918.
+                </div>
+              </article>
+              <article class="pb-5">
+                <div class="others-img">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632133/georgia.jpg?w=95&amp;h=95&amp;f=e78e1f94f74eff888f2d9dee5925e074"
+                    style="float: left;" alt="Newsweek Placeholder Image">
+                </div>
+                <h4 class="more-link">
+                  <a href="#">
+                    Great American Boat Parade Breaks Trump Flotilla Record
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  Despite the larger number of attendees, the Georgia Department of Natural Resources said the event
+                  went more smoothly than a parade in Texas on Saturday afternoon, in which several boats sank.
+                </div>
+              </article>
+              <article class="pb-5">
+                <div class="others-img">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632148/donald-trump.jpg?w=95&amp;h=95&amp;f=d2405ab3cbff17da7b1882ad2f0f7607"
+                    style="float: left;" alt="Newsweek Placeholder Image">
+                </div>
+                <h4 class="more-link">
+                  <a href="#">
+                    Trump Accused of Censorship Over 1619 Project Threat
+                  </a>
+                </h4>
                 <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
+                  President Donald Trump said the Department of Education is "looking at" whether schools plan to use
+                  the 1619 Project in their curricula.
                 </p>
               </article>
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632069/meghan-markle-prince-harry-sentebale-polo.jpg?w=95&amp;h=95&amp;f=eafb61757bcd1834cc9b002a126a83c5"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Meghan Markle and Prince Harry No Longer Getting Money from Prince Charles
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  Meghan Markle and Prince Harry have broken free of financial dependence from Prince Charles as they
+                  begin work on their multi-year deal with Netflix, Newsweek has confirmed.
+                </div>
               </article>
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632156/fire-kenosha-wisconsin.jpg?w=95&amp;h=95&amp;f=e00f4ff787afa0d2eeca14e5a6cafd3e"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Democrat Sheriff Quits for GOP as Trump Attacks Biden Over Law and Order
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  Sheriff Dave Wedding said he was "tired of seeing fires set in our streets" as he announced his
+                  defection to the Republican Party.
+                </div>
               </article>
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632071/apple-fire-san-bernardino-california-august-2020.jpg?w=95&amp;h=95&amp;f=4d9f0a365c1361d9bef222c0d2e7143a"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Gender Reveal Party Using Pyrotechnic Device Sparks California Fire
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  Several recreational areas of the San Bernardino National Forest have been closed following the latest
+                  fire.
+                </div>
               </article>
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632074/sarah-huckabee-sanders.jpg?w=95&amp;h=95&amp;f=8926998d1a2a5a6150cf388d557de96a"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Trump's Ex-Press Sec Calls 'Losers' Claim 'Malicious Lies…I Was There'
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  The former administration official defended her old boss as several outlets confirmed allegations that
+                  the president disparaged troops.
+                </div>
               </article>
-              <article>
+
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632161/afl-cio-protest-washington-dc.jpg?w=95&amp;h=95&amp;f=6934e61b01e06ef99568a28ddf8b27ae"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Labor Day 2020: Here's Where Major Unions Stand on Trump vs. Biden Election
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  As Americans celebrate Labor Day, many of the nation's largest unions have already endorsed candidates
+                  for November's presidential election.
+                </div>
               </article>
-              <article>
+              <article class="pb-5">
                 <div class="others-img">
-                  <img class="img-fluid mr-2" src="assets/images/more-stories1.webp" style="float: left;"
-                    alt="Newsweek Placeholder Image">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632171/south-carolina-university.jpg?w=95&amp;h=95&amp;f=cfa88c99a4afbf39cd808aaf27332c18"
+                    style="float: left;" alt="Newsweek Placeholder Image">
                 </div>
-                <h4>Aenean ultricies, metus vel porta accumsan, quam dolor.</h4>
-                <p class="other-summary">
-                  Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit
-                  vitae
-                  est. Nunc ultricies fermentum mollis.
-                </p>
+                <h4 class="more-link">
+                  <a href="#">
+                    Video Shows Hundreds of Students Breaking COVID-19 Rules in Rhode Island
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  On the weekend before classes are set to start for the new school year, a video emerged of dozens of
+                  students gathering without following social distancing guidelines or wearing a mask.
+                </div>
+              </article>
+
+              <article class="pb-5">
+                <div class="others-img">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632159/uluru.jpg?w=95&amp;h=95&amp;f=28afcfd41519cf3ca68ebe36aa2caaaf"
+                    style="float: left;" alt="Newsweek Placeholder Image">
+                </div>
+                <h4 class="more-link">
+                  <a href="#">
+                    Five Doctors Who Went Missing in Australian Outback Found Safe and Well
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  The group were meant to meet up with friends to camp overnight in a nature park in the Northern
+                  Territory, but never showed up.
+                </div>
+              </article>
+              <article class="pb-5">
+                <div class="others-img">
+                  <img class="img-fluid mr-2"
+                    src="https://d.newsweek.com/en/full/1632019/kamala-harris.jpg?w=95&amp;h=95&amp;f=6a5c27d538d1481a8ac17ac9d5a87376"
+                    style="float: left;" alt="Newsweek Placeholder Image">
+                </div>
+                <h4 class="more-link">
+                  <a href="#">
+                    Kamala Harris Says Officer Who Shot Jacob Blake 'Should Be Charged'
+                  </a>
+                </h4>
+                <div class="other-summary">
+                  The Democratic vice presidential nominee said she was "not in full possession of the facts and the
+                  evidence," but said: "Based on what I saw, he should be charged."
+                </div>
               </article>
             </div>
           </div>
@@ -442,64 +566,89 @@
         <!--   Featured Stories Section   -->
         <div class="col-lg-4 pt-4 col-md-5 order-lg-0 order-md-0">
           <div class="article-content">
-            <div class="title pb-4">
+            <div class="title">
               Featured Stories
             </div>
             <section>
-              <img class="img-fluid" src="assets/images/lgbtq-flag-stethoscope.webp" alt="Newsweek Placeholder Image">
               <div class="article-img">
-                <div class="category">
-                  <a href="#category">News</a>
+                <div class="category-link">
+                  <a href="#">News</a>
                 </div>
+                <img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1632249/usps-dejoy-congressional-hearing-august-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=8b3ec0c676cf0533f9c319bec5a34167"
+                  alt="Newsweek Placeholder Image">
               </div>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-              <p class="summary mb-5">
-                Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit vitae
-                est. Nunc ultricies.
-              </p>
+              <h3>Trump Says DeJoy Should Lose His Job if Campaign Finance Allegations Proven</h3>
+              <div class="summary pb-2">
+                The Washington Post reported that former employees of Louis DeJoy were pressured to donate to Republican
+                candidates and then reimbursed through bonuses.
+              </div>
             </section>
+
             <section>
-              <img class="img-fluid" src="assets/images/dnc.webp" alt="Newsweek Placeholder Image">
               <div class="article-img">
-                <div class="category">
-                  <a href="#category">News</a>
+                <div class="category-link">
+                  <a href="#">Health</a>
                 </div>
+                <img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1632068/vaccine-stock-getty.jpg?w=397&amp;h=265&amp;q=90&amp;f=11299e8c66cd96d3af8f230891131f49"
+                  alt="Newsweek Placeholder Image">
               </div>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-              <p class="summary mb-5">
-                Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit vitae
-                est. Nunc ultricies.
-              </p>
+              <h3>Trust in COVID-19 Vaccine Falling, 79 Percent Wouldn't Get Shot Right Away</h3>
+              <div class="summary pb-2">
+                Jeremy Farrar, director of the U.K.-based research-charity the Wellcome Trust, said political leaders
+                are giving "false hope" over vaccine candidates.
+              </div>
             </section>
+
             <section>
-              <img class="img-fluid" src="assets/images/lgbtq-flag-stethoscope.webp" alt="Newsweek Placeholder Image">
               <div class="article-img">
-                <div class="category">
-                  <a href="#category">News</a>
+                <div class="category-link">
+                  <a href="#">Politics</a>
                 </div>
+                <img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1632102/president-donald-trump-news-conference.jpg?w=397&amp;h=265&amp;q=90&amp;f=9ff845f0e17ee704ea59442df3f71a85"
+                  alt="Newsweek Placeholder Image">
               </div>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-              <p class="summary mb-5">
-                Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit vitae
-                est. Nunc ultricies.
-              </p>
+              <h3>Trump Allies Use Iraq War to Deflect Claim He Called Dead Troops 'Losers'</h3>
+              <div class="summary pb-2">
+                President Donald Trump's allies point to the Iraq War as they defend him from claims he called dead
+                American soldiers "losers" and "suckers."
+              </div>
             </section>
+
             <section>
-              <img class="img-fluid" src="assets/images/dnc.webp" alt="Newsweek Placeholder Image">
               <div class="article-img">
-                <div class="category">
-                  <a href="#category">News</a>
+                <div class="category-link">
+                  <a href="#">News</a>
                 </div>
+                <img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1632070/biden.jpg?w=397&amp;h=265&amp;q=90&amp;f=9b00b60bd54a4f5e612f362a370a24d8"
+                  alt="Newsweek Placeholder Image">
               </div>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-              <p class="summary mb-2">
-                Vivamus porttitor, ipsum in hendrerit pulvinar, augue nunc fringilla tellus, in posuere erat elit vitae
-                est. Nunc ultricies.
-              </p>
-              <strong>
-                Nullam vehicula pretium interdum. Orci varius natoque penatibus et magnis dis parturient.
-              </strong>
+              <h3>Can Trump Win? New Electoral College Forecast Puts Biden Clear on 279 Votes</h3>
+              <div class="summary pb-2">
+                National polling showed that 52 percent of likely voters would cast a ballot for Biden, while 42 percent
+                would vote for Trump.
+              </div>
             </section>
+
+            <section>
+              <div class="article-img">
+                <div class="category-link">
+                  <a href="#">News</a>
+                </div>
+                <img class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1632131/valley-fire.jpg?w=397&amp;h=265&amp;q=90&amp;f=946259c6c14a14370f8ca6131244588f"
+                  alt="Newsweek Placeholder Image">
+              </div>
+              <h3>Pictures and Videos Show California Burning As More Wildfires Break Out</h3>
+              <div class="summary pb-2">
+                The fires raging across the state this weekend were also accompanied by extreme heat, with records
+                tumbling in several locations.
+              </div>
+            </section>
+
           </div>
         </div>
         <!--   End Featured Stories Section  -->
@@ -511,19 +660,28 @@
           <div class="debate-content">
 
             <!--  Title-Link  -->
-            <div class="title mb-4 pb-4">
+            <div class="title mb-4 pb-4 debate-link">
               <a href="#title">The Debate</a>
             </div>
 
             <!--  Debate-items Top -->
             <div class="debate-item-top">
               <div class="debate-img">
-                <img class="rounded-circle pr-3" src="assets/images/debate1.webp" alt="Newsweek Placeholder Image">
+                <img class="rounded-circle"
+                  src="https://d.newsweek.com/en/full/1595774/gordon-chang.png?w=150&amp;h=150&amp;f=b09b792f02f0ce65c0441c6b8de296c7"
+                  alt="Newsweek Placeholder Image">
               </div>
-              <div class="debate-info mt-3">
-                <a href="#title">
-                  Class aptent taciti sociosqu ad litora torquent.
-                </a>
+              <div class="debate-info debate-link pt-4 pl-4">
+
+                <div class="more-link">
+                  <a href="#">Avoid War, Defend America, Recognize Taiwan</a>
+                </div>
+
+                <div class="byline">
+                  <span>By</span>
+                  Gordon G. Chang
+                </div>
+
               </div>
             </div>
 
@@ -536,23 +694,28 @@
               </div>
             </div>
 
-
             <!--  Debate-items Bottom -->
-            <div class="debate-item-bottom mb-4">
-              <div class="debate-img  pb-2">
-                <img class="rounded-circl pl-3 float-right" style="width: 32%; " src="assets/images/kevin-sabet.webp"
+            <div class="debate-item-bottom pb-5">
+              <div class="debate-img">
+                <img class="rounded-circle float-right"
+                  src="https://d.newsweek.com/en/full/1629917/jerome-cohen.png?w=150&amp;h=150&amp;f=c6d2471c32707532188a670274ca9b53"
                   alt="Newsweek Placeholder Image">
               </div>
-              <div class="debate-info mt-4">
-                <a href="#title">
-                  Class aptent taciti sociosqu ad litora torquent.
-                </a>
+              <div class="debate-info debate-link pt-2">
+                <div class="more-link">
+                  <a href="#">Don't Rush to Fully Normalize Relations With Taiwan</a>
+                </div>
+
+                <div class="byline">
+                  <span>By</span>
+                  Jerome A. Cohen
+                </div>
               </div>
             </div>
           </div>
 
           <!-- Opinion -->
-          <div class="opinion">
+          <div class="opinion mt-5">
             <div class="opinion-content">
               <!--  Title-Link  -->
               <div class="title mb-2 mt-2">
@@ -565,86 +728,111 @@
               <ul class="opinion-items">
 
                 <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/debate1.webp" alt="Newsweek Placeholder Image">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/1594385/marianne-williamson.png?w=63&amp;h=63&amp;f=e5673fcb9ddab3bb801cfc7a5c103a2f"
+                      alt="Newsweek Placeholder Image">
                   </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
+                    </div>
+                  </div>
+                </li>
+
+
+
+                <li class="mb-4">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/1631495/noah-garber.png?w=63&amp;h=63&amp;f=d354274ce1e52bd79c552ee1a4e71c40"
+                      alt="Newsweek Placeholder Image">
+                  </div>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
+                    </div>
+                  </div>
+                </li>
+
+                <li class="pb-4">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/1577421/hank-gilman.png?w=63&amp;h=63&amp;f=f18b9a7364da071493072861d8b4448f"
+                      alt="Newsweek Placeholder Image">
+                  </div>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
                     </div>
                   </div>
                 </li>
                 <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/kevin-sabet.webp" alt="Newsweek Placeholder Image">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/1631101/james-r-conde-t-elliot-gaiser.png?w=63&amp;h=63&amp;f=bdff3cadff9a28385d749b3e766bea58"
+                      alt="Newsweek Placeholder Image">
                   </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
                     </div>
                   </div>
                 </li>
                 <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/debate1.webp" alt="Newsweek Placeholder Image">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/1631091/sly-james-winston-fisher.png?w=63&amp;h=63&amp;f=17a98eb43cdb908fbc0a9334f495397c"
+                      alt="Newsweek Placeholder Image">
                   </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
                     </div>
                   </div>
                 </li>
                 <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/kevin-sabet.webp" alt="Newsweek Placeholder Image">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&amp;h=63&amp;l=48&amp;t=55&amp;f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77"
+                      alt="Newsweek Placeholder Image">
                   </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
                     </div>
                   </div>
                 </li>
                 <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/debate1.webp" alt="Newsweek Placeholder Image">
+                  <div class="debate-img pr-4 pb-2 image">
+                    <img class="rounded-circle"
+                      src="https://d.newsweek.com/en/full/1631095/vikram-mansharamani.png?w=63&amp;h=63&amp;f=c7b715d50fbe339e9c23cbb99b35bb86"
+                      alt="Newsweek Placeholder Image">
                   </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/kevin-sabet.webp" alt="Newsweek Placeholder Image">
-                  </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="mb-4">
-                  <div class="debate-img pr-4 mb-2">
-                    <img class="rounded-circle" src="assets/images/debate1.webp" alt="Newsweek Placeholder Image">
-                  </div>
-                  <div class="debate-info">
-                    <div class="mt-2">
-                      <a href="#title">
-                        Class aptent taciti sociosqu ad litora torquent.
-                      </a>
+                  <div class="debate-info more-link">
+                    <a href="#title">
+                      America's Karma
+                    </a>
+                    <div class="mt-2 byline uppercase">
+                      By Marianne Williamson
                     </div>
                   </div>
                 </li>
@@ -738,21 +926,21 @@
 
             <!-- Magazine -->
             <div class="magazine">
-              <div class="title">
-                <span class="n-icon"></span>
+              <div class="title-black pl-3 pb-3 pt-5 jc pb-4">
+                <span class="n-icon mr-2"></span>
                 In the magazine
               </div>
 
-              <div class="row flex-sm">
-                <div class="col-md-3 col-sm-12 xs-12">
-                  <div class="features-content">
+              <div class="row flex-sm pt-4">
+                <div class="col-md-3 pb-4 col-sm-12 xs-12">
+                  <div class="features-content category-link">
                     <div class="features-wrap">
                       <div class="featureimg">
                         <a href="#featureimg">
                           <img class="w-100" src="assets/images/features.webp" alt="Newsweek Placeholder Image">
                         </a>
                       </div>
-                      <div class="category">
+                      <div class="category-link">
                         <a href="/2020/09/04/#features">September 04 ISSUE</a>
                       </div>
                     </div>
@@ -825,7 +1013,7 @@
 
               <div class="row bottom">
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="https://picsum.photos/id/103/300/300" alt="Newsweek Placeholder Image">
                   </div>
@@ -842,7 +1030,7 @@
                   <h5>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h5>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="https://picsum.photos/id/104/300/300" alt="Newsweek Placeholder Image">
                   </div>
@@ -859,7 +1047,7 @@
                   <h5>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h5>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="https://picsum.photos/id/106/300/300" alt="Newsweek Placeholder Image">
                   </div>
@@ -876,7 +1064,7 @@
                   <h5>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h5>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="https://picsum.photos/id/1008/300/300" alt="Newsweek Placeholder Image">
                   </div>
@@ -898,16 +1086,18 @@
             <!-- editor-picks -->
             <div class="editor-picks mt-5">
 
-              <div class="title mb-5">
-                <span class="n-icon"></span> Editor's Pick
+              <div class="title-black pb-4 pl-3 jc">
+                <span class="n-icon mr-2"></span>Editor's Pick
               </div>
 
-              <div class="row editors-content">
+              <div class="row editors-content pt-4">
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/ed-pick.webp" alt="Newsweek Placeholder Image">
-                    <div class="top-category">US</div>
+                    <div class="top-category">
+                      <a href="#" class="red-title">U.S.</a>
+                    </div>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -915,12 +1105,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/register-vote.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -928,12 +1118,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/ed-pick.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -941,12 +1131,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/register-vote.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -954,12 +1144,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/ed-pick.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -967,12 +1157,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/register-vote.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -980,12 +1170,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/ed-pick.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -993,12 +1183,12 @@
                   </div>
                 </article>
 
-                <article class="col-md-3 col-sm-12 xs-12">
+                <article class="col-md-3 pb-4 col-sm-12 xs-12">
                   <div class="top-img w-100">
                     <img class="w-100" src="assets/images/register-vote.webp" alt="Newsweek Placeholder Image">
                   </div>
                   <div class="top-category">
-                    U.S.
+                    <a href="#" class="red-title">U.S.</a>
                   </div>
                   <h3>Ut rhoncus non ligula at varius. Nulla facilisi. Integer efficitur.</h3>
                   <div class="summary">
@@ -1013,13 +1203,14 @@
             <div class="newsweek-picks mt-5">
               <div class="newsweek-content">
 
-                <div class="title mb-5">
-                  U.S.
+                <div class="title red-title pb-2 pl-3">
+                  <a href="#" class="red-title">U.S.</a>
                 </div>
+
                 <div class="row">
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/texas-border-wall.webp" alt="Newsweek Placeholder Image">
 
@@ -1029,7 +1220,7 @@
                   </div>
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/texas-border-wall.webp" alt="Newsweek Placeholder Image">
 
@@ -1047,7 +1238,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1058,7 +1249,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1069,7 +1260,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1079,13 +1270,14 @@
 
                 </div>
 
-                <div class="title mb-5">
-                  U.S.
+                <div class="title red-title pb-2 pl-3">
+                  <a href="#" class="red-title">World</a>
                 </div>
+
                 <div class="row">
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/world-health-organization.webp"
                           alt="Newsweek Placeholder Image">
@@ -1096,7 +1288,7 @@
                   </div>
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/navalny-ambulance.webp" alt="Newsweek Placeholder Image">
 
@@ -1114,7 +1306,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1125,7 +1317,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1136,7 +1328,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1146,13 +1338,14 @@
 
                 </div>
 
-                <div class="title mb-5">
-                  U.S.
+                <div class="title pb-2 pl-3 red-title">
+                  <a href="#" class="red-title">Business</a>
                 </div>
+
                 <div class="row">
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/zenni-geometric-translucent-optical.webp"
                           alt="Newsweek Placeholder Image">
@@ -1163,7 +1356,7 @@
                   </div>
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/walmart-store-front.webp"
                           alt="Newsweek Placeholder Image">
@@ -1182,7 +1375,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1193,7 +1386,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1204,7 +1397,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1214,13 +1407,14 @@
 
                 </div>
 
-                <div class="title mb-5">
-                  U.S.
+                <div class="title red-title pb-2 pl-3">
+                  <a href="#" class="red-title">Tech & Science</a>
                 </div>
+
                 <div class="row">
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/tropical-storm-laura.webp"
                           alt="Newsweek Placeholder Image">
@@ -1231,7 +1425,7 @@
                   </div>
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/sturgis.webp" alt="Newsweek Placeholder Image">
 
@@ -1249,7 +1443,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info pl-2">
+                          <div class="sub-info tc-link pl-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1260,7 +1454,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info pl-2">
+                          <div class="sub-info tc-link pl-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1271,7 +1465,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info pl-2">
+                          <div class="sub-info tc-link pl-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1281,13 +1475,14 @@
 
                 </div>
 
-                <div class="title mb-5">
-                  U.S.
+                <div class="title red-title pb-2 pl-3">
+                  <a href="#" class="red-title">Culture</a>
                 </div>
+
                 <div class="row">
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/frankie-banali.webp" alt="Newsweek Placeholder Image">
 
@@ -1297,7 +1492,7 @@
                   </div>
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/ice-cube.webp" alt="Newsweek Placeholder Image">
 
@@ -1315,7 +1510,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1326,7 +1521,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1337,7 +1532,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1347,13 +1542,14 @@
 
                 </div>
 
-                <div class="title mb-5">
-                  U.S.
+                <div class="title red-title pb-2 pl-3">
+                  <a href="#" class="red-title">Sports</a>
                 </div>
+
                 <div class="row">
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/keith-lee-karrion-kross-nxt-titantron.webp"
                           alt="Newsweek Placeholder Image">
@@ -1364,7 +1560,7 @@
                   </div>
 
                   <div class="col-md-4 col-sm-12 xs-12">
-                    <article>
+                    <article class="pb-5">
                       <div class="article-img">
                         <img class="w-100" src="assets/images/washington-football-team.webp"
                           alt="Newsweek Placeholder Image">
@@ -1383,7 +1579,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1394,7 +1590,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1405,7 +1601,7 @@
                               <img class="" src="https://picsum.photos/id/500/90/80" alt="Newsweek Placeholder Image">
                             </a>
                           </div>
-                          <div class="sub-info ml-2">
+                          <div class="sub-info tc-link ml-2">
                             Suspendisse potenti. Curabitur lobortis, tellus sed feugiat consectetur.
                           </div>
                         </li>
@@ -1419,16 +1615,16 @@
               <!--End Page Bottom-->
 
               <!--  Subscribe Block -->
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 order-5 p-5">
-                <div class="row subscribe-content">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 order-5  pl-0">
+                <div class="row subscribe-content pb-3">
 
-                  <div class="col-lg-8 col-md-12 col-xs-12" style="background-color: #ecf0f1;">
+                  <div class="col-lg-8 col-md-12 col-xs-12">
 
-                    <div class="title pb-5">
+                    <div class="title red-title pb-3">
                       Subscribe
                     </div>
 
-                    <div class="subscribe-items pb-4">
+                    <div class="subscribe-items">
                       <div class="subscribe-img">
                         <div class="prev s-img">
                           <img class="img-p" src="assets/images/cover-august-14-2020.jpg"
@@ -1438,7 +1634,7 @@
                           <img class="img-c" src="assets/images/features.webp " alt="Newsweek Placeholder Image">
                         </div>
                       </div>
-                      <div class="subscribe-info mt-5">
+                      <div class="subscribe-info tc-link pl-4 mt-5">
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
                         <p>Donec mollis sed quam ac tempus. Morbi suscipit purus purus, ut cursus augue.</p>
                         <button type="button" class="btn btn-danger subscribe-btn">Subscribe</button>
@@ -1447,7 +1643,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-12 col-xs-12">
-                    <div class="title pb-4">
+                    <div class="red-title title pb-4 pt-3">
                       Newsletter
                     </div>
                     <div class="newsletter-block">
@@ -1455,7 +1651,7 @@
                         <img class="newsletter-pic" src="assets/images/starting5-homepage.png"
                           alt="Newsweek Placeholder Image">
                       </div>
-                      <div class="newsletter-info pl-4 mt-2">
+                      <div class="newsletter-info tc-link pl-5 mt-2">
                         <h3>Sed sit amet.</h3>
                         <p>
                           Aenean sed augue pharetra,
