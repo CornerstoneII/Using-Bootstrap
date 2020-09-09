@@ -56,9 +56,80 @@ h4 a {
   text-decoration: none;
 }
 
-.category-link a {
-  color: rgba(3, 3, 3, 0.4);
-  font-weight: bold;
+.category {
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  text-transform: uppercase;
+  color: #f72210;
+}
+
+.cat1 {
+  transform: translateY(16%);
+  top: 8%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
+}
+
+.cat2 {
+  top: 20.3%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
+}
+
+.cat3 {
+  /* transform: translateY(4%); */
+  top: 32%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
+}
+
+.cat4 {
+  transform: translateY(20%);
+  top: 43.7%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
+}
+
+.cat5 {
+  transform: translateY(20%);
+  top: 55.7%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
+}
+
+.cat6 {
+  transform: translateY(20%);
+  top: 67.7%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
+}
+
+.cat7 {
+  transform: translateY(20%);
+  top: 79.7%;
+  background-color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  color: #f72210;
+  position: absolute;
+  padding: 8px 15px 9px;
 }
 
 .title,
@@ -187,10 +258,6 @@ h6 span:hover {
 .black-color {
   color: #000;
 }
-
-/* .red-text {
-  color: #f72210;
-} */
 
 .white-text {
   color: #fff;
@@ -377,7 +444,6 @@ ul {
 .title-black {
   font-weight: bold;
   color: black;
-  text-transform: uppercase;
 }
 
 .image img {
@@ -390,7 +456,8 @@ ul {
 
 .form-submit,
 .title,
-.subscribe-btn {
+.subscribe-btn,
+.title-black {
   text-transform: uppercase;
 }
 
