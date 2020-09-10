@@ -52,12 +52,14 @@ h4 a {
 .tc-link a,
 .top-category a,
 .red-title a,
-.text-decoration a {
+.text-decoration a,
+.category a {
   text-decoration: none;
+  color: inherit;
 }
 
 .category {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   text-transform: uppercase;
   color: #f72210;
@@ -112,30 +114,22 @@ h4 a {
 
 .cat8 {
   transform: translateY(20%);
-  top: 11.3%;
+  top: 10.5%;
   padding: 8px 15px 9px;
 }
 
-.cat9 {
-  top: 51%;
-  padding: 4px 4px 4px;
-  font-size: 10px;
-}
-
-.cat10 {
-  top: 51%;
-  padding: 4px 4px 4px;
-  font-size: 10px;
-}
-
+.cat9,
+.cat10,
 .cat11 {
-  top: 51%;
+  top: 48%;
   padding: 4px 4px 4px;
   font-size: 10px;
+  background-color: #c2d4d7;
+  color: black;
 }
 
 .pick-lg {
-  top: 48.2%;
+  top: 48%;
   padding: 8px 15px 9px;
 }
 
@@ -151,7 +145,8 @@ h4 a {
 }
 
 .more-link a,
-.top-link a {
+.top-link a,
+.more-link {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -166,9 +161,18 @@ h4 a {
 }
 
 .more-link a:hover,
-.top-link a:hover {
+.top-link a:hover,
+.more-link:hover {
   text-decoration: underline;
   text-decoration-color: red;
+}
+
+.topdebateimg {
+  width: 80% !important;
+}
+
+.float-right {
+  width: 20% !important;
 }
 
 .uppercase {
@@ -283,7 +287,8 @@ h4 a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 110%;
-  height: 120%;
+  height: 132%;
+  margin-top: -8px;
 }
 
 .news-ltr-clr {
@@ -344,7 +349,7 @@ section h2 {
 
 .subscribe-items {
   background-color: #f4f5f6;
-  padding: 30px;
+  padding: 40px;
 }
 
 .round-vs {
@@ -482,7 +487,46 @@ ul {
 }
 
 .newsletter-block {
-  height: 250px;
+  border: 1px solid #ebebeb;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .cat2 {
+    top: 21.7%;
+  }
+
+  .cat3 {
+    top: 34.4%;
+  }
+
+  .cat4 {
+    top: 47%;
+  }
+
+  .cat5 {
+    top: 59.7%;
+  }
+
+  .cat6 {
+    top: 72.5%;
+  }
+
+  .cat7 {
+    top: 85.2%;
+  }
+
+  .cat8 {
+    top: 11.3%;
+  }
+
+  .cat9,
+  .cat10,
+  .cat11 {
+    top: 49.3%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 768px) {
@@ -535,7 +579,6 @@ ul {
   .pick-lg {
     top: 50.2%;
   }
-
 }
 
 @media only screen and (max-width: 384px) {
